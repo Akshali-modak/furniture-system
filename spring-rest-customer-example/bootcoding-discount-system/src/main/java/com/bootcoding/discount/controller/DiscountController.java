@@ -1,8 +1,6 @@
 package com.bootcoding.discount.controller;
 
-import com.bootcoding.discount.model.CalculateDiscount;
-import com.bootcoding.discount.model.Cycle;
-import com.bootcoding.discount.model.Marker;
+import com.bootcoding.discount.utils.CalculateDiscount;
 import com.bootcoding.discount.service.DiscountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

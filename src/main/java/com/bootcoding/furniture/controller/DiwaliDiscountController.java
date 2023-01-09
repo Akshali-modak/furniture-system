@@ -18,5 +18,4 @@ public class DiwaliDiscountController {
 
         return diwaliDiscountService.getAllCustomerDiscount();
     }
-
 }

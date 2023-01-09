@@ -1,4 +1,4 @@
-package com.bootcoding.discount.model;
+package com.bootcoding.discount.utils;
 
 import java.util.Date;
 

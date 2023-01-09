@@ -7,13 +7,8 @@ public class Customer {
     private String name;
     private int offerCount;
 
-    public int getOfferCount() {
-        return offerCount;
-    }
-
-    public void setOfferCount(int offerCount) {
-        this.offerCount = offerCount;
-    }
+    private String cityName;
+    private String address;
 
     public int getVisitCount() {
         return visitCount;
@@ -33,6 +28,14 @@ public class Customer {
         this.name = name;
     }
 
+    public int getOfferCount() {
+        return offerCount;
+    }
+
+    public void setOfferCount(int offerCount) {
+        this.offerCount = offerCount;
+    }
+
     public String getCityName() {
         return cityName;
     }
@@ -48,7 +51,4 @@ public class Customer {
     public void setAddress(String address) {
         this.address = address;
     }
-
-    private String cityName;
-    private String address;
 }

@@ -37,7 +37,4 @@ public class DiwaliDiscountService {
         calculateDiscount.setDiscount(CalculateDiscount.getDiscount(customer));
         return calculateDiscount;
     }
-
-
-
 }
