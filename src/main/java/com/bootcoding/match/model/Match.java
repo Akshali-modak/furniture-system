@@ -14,10 +14,12 @@ public class Match {
       private Date Date;
 
       public Date getMatchDate() {
+
             return Date;
       }
 
       public void setMatchDate(Date matchDate) {
+
             this.Date = matchDate;
       }
 
@@ -32,6 +34,7 @@ public class Match {
       }
 
       public int getId() {
+
             return id;
       }
 
