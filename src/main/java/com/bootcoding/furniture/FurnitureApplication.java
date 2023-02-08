@@ -1,6 +1,6 @@
 package com.bootcoding.furniture;
 
-import com.bootcoding.discount.DiscountApplication;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
