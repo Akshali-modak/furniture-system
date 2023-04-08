@@ -18,7 +18,6 @@ public class CustomerController {
 
     @GetMapping("/customer")
     public List<Customer> getAllCustomer(){
-
         return customerService.getAllCustomer();
     }
     @PostMapping("/addCustomer")
