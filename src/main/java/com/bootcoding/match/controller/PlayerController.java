@@ -28,8 +28,9 @@ public class PlayerController {
         return addPlayer;
     }
     @DeleteMapping("/player/{name}")
-    public Player deleteName(@PathVariable("name")String name){
-      playerService.getAllPlayer();
+    public ArrayList<Player> deleteName(@PathVariable("name")String name){
+        playerService.getAllPlayer();
+          return null;
     }
 
 }
