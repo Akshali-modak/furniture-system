@@ -29,6 +29,7 @@ public class Customer {
     }
 
     public int getOfferCount() {
+
         return offerCount;
     }
 
